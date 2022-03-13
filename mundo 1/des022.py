@@ -1,0 +1,5 @@
+nome = str(input('Escreva seu nome completo: ')).strip()
+print(f'\033[30mSeu nome maiúsculo é \033[33m{nome.upper()}')
+print(f'\033[30mSeu nome em minúsculo é \033[33m{nome.lower()}')
+print(f'\033[30mSeu nome tem ao todo \033[31m{len(nome.strip()) - nome.count(" ")}\033[30m letras')
+print(f'\033[30mSeu primeiro nome é \033[33m{nome.split()[0]}\033[30m e ele contém \033[31m{len(nome.split()[0])}\033[30m letras')

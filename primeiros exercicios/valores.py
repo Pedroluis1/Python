@@ -1,0 +1,8 @@
+n1 = int(input('Digite um número '))
+n2 = int(input('Digite outro número '))
+print('valor somado {}'.format(n1 + n2))
+print('valor subtraido {}'.format(n1 - n2))
+print('valor dividido {:.2f}'.format(n1 / n2))
+print('valor multiplicado {}'.format(n1*n2))
+print('valor {:} elevado a {} é {}'.format(n1,n2,(n1**n2)))
+print('divisão inteira é {}\nresto da divisão {}'.format(n1//n2,n1%n2))

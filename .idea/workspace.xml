@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f67ed09e-0ab1-4581-8ddb-aa11a6485a6f" name="Default Changelist" comment="" />
+    <list default="true" id="f67ed09e-0ab1-4581-8ddb-aa11a6485a6f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2CDyuz79JhDujDMMWLbbWIAHU8a" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -19,6 +25,57 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.des070">
+    <configuration name="des070" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mundo 2 (while)" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mundo 2 (while)/des070.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="des076" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\F\PycharmProjects\letsgobaby\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mundo 3" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mundo 3/des076.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.des070" />
+        <item itemvalue="Python.des076" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -32,5 +89,31 @@
       <updated>1658351684981</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="0" key="#des076" timestamp="1658355267087">
+      <screen x="0" y="0" width="1288" height="768" />
+    </state>
+    <state x="361" y="0" key="#des076/0.0.1288.768@0.0.1288.768" timestamp="1658355267087" />
+    <state width="1245" height="169" key="GridCell.Tab.0.bottom" timestamp="1658356170141">
+      <screen x="0" y="0" width="1288" height="768" />
+    </state>
+    <state width="1245" height="169" key="GridCell.Tab.0.bottom/0.0.1288.768@0.0.1288.768" timestamp="1658356170141" />
+    <state width="1245" height="169" key="GridCell.Tab.0.center" timestamp="1658356170141">
+      <screen x="0" y="0" width="1288" height="768" />
+    </state>
+    <state width="1245" height="169" key="GridCell.Tab.0.center/0.0.1288.768@0.0.1288.768" timestamp="1658356170141" />
+    <state width="1245" height="169" key="GridCell.Tab.0.left" timestamp="1658356170141">
+      <screen x="0" y="0" width="1288" height="768" />
+    </state>
+    <state width="1245" height="169" key="GridCell.Tab.0.left/0.0.1288.768@0.0.1288.768" timestamp="1658356170141" />
+    <state width="1245" height="169" key="GridCell.Tab.0.right" timestamp="1658356170141">
+      <screen x="0" y="0" width="1288" height="768" />
+    </state>
+    <state width="1245" height="169" key="GridCell.Tab.0.right/0.0.1288.768@0.0.1288.768" timestamp="1658356170141" />
+    <state x="152" y="29" key="SettingsEditor" timestamp="1658355061864">
+      <screen x="0" y="0" width="1288" height="768" />
+    </state>
+    <state x="152" y="29" key="SettingsEditor/0.0.1288.768@0.0.1288.768" timestamp="1658355061864" />
   </component>
 </project>

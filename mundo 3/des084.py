@@ -18,11 +18,11 @@ while True:
         break
 print('-=' * 30)
 print(f'Ao todo você cadastrou {len(princ)} pessoas.')
-print(f'O maior peso foi {mai}Kg de', end='')
+print(f'O maior peso foi {mai}Kg de ', end='')
 for p in princ:
     if p[1] == mai:
         print(f'{[p[0]]}', end='')
-print(f'E o menor peso foi {men} de ', end='')
+print(f'\nE o menor peso foi {men} de ', end='')
 for p in princ:
     if p[1] == men:
         print(f'{[p[0]]}', end='')

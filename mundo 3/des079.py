@@ -4,7 +4,7 @@ while True:
     b = int(input('Digite um valor: '))
     if b == -10101:
         break
-    if b in a:
+    elif b in a:
         print('valor duplicado. não vou adicionar...')
     else:
         a.append(b)

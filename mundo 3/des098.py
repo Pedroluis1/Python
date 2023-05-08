@@ -1,11 +1,10 @@
-from time import sleep
 def contagem(i, f, p):
     if p == 0:
         p = 1
     if i and f > 0 > p:
         p = p + (2*(-p)) # 40 50 -1 ( convertendo para o positivo)
         print(p)
-    sleep(0.5)
+
     print(f'Contagem de {i} até {f-1} de {p} em {p}')
     if i > f:
         p = -p #50 10 (convertendo para o negativo)
@@ -15,9 +14,10 @@ def contagem(i, f, p):
     if i > 0 > f:
         p = -p #?? converter (adapitando) quando 90 -40 10 e vice versa!! 
     for c in range (i, f, p):
-        sleep(0.5)
+    
         print( f'{c} ', end='')
     print('FIM! ')
+
     print('-='*20)
 
 

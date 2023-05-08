@@ -1,6 +1,5 @@
 cadastro = []
 temp = []
-media = 0
 while True:
     temp.append(str(input('Nome: ')))
     temp.append(float(input('nota 1: ')))
@@ -13,7 +12,7 @@ while True:
 print('-='*30,'\n',f'{"NOME":>10}{"MÉDIA":>17}','\n','-'*34)
 
 for i in range (0, len(cadastro)):
-    print(i,f'{cadastro[i][0]:>10}',f'{(cadastro[i][1]+cadastro[i][2])/2:>14}')
+    print(i,f'{cadastro[i][0]:>10}',f'{(cadastro[i][1]+cadastro[i][2])/2:>14.1f}')
 print('-'*34)
 while True:
     res = int(input('Mostrar as notas de qual aluno? (999 interrompe):'))

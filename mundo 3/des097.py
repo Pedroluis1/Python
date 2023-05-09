@@ -1,7 +1,7 @@
 def escreva(p):
-    print('-'*len(p))
-    print(p)
-    print('-'*len(p))
+    print('-'*(len(p)+4))
+    print(f'  {p}  ')
+    print('-'*(len(p)+4))
 
 
 escreva('ola mundo')

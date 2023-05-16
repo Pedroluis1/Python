@@ -1,6 +1,17 @@
-def aumentar ()
+def aumentar (num):
+    
 
 
 
 
-def 
+def diminuir (num):
+    
+
+
+
+def dobro (num):
+    
+
+
+
+def metade (num):

@@ -1,4 +1,4 @@
-import moedas
+from utilidades_cev import dado, moeda
 
-p = float(input('Digite o preço: '))
-moedas.resumo(p, 80, 50)
+p = dado.leiadinheiro('Digite o preço: ')
+moeda.resumo(p, 80, 50)

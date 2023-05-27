@@ -10,7 +10,8 @@ if not arquivoExiste(arq):
 while True:
     resposta = menu(['Ver pessoas cadastradas','Cadastrar nova pessoa','Sair do sistema'])
     if resposta == 1:
-        cabeçalho('op1')
+        #opção de listar o conteúdo do arquivo!
+        lerArquivo(arq)
     elif resposta == 2:
         cabeçalho('op2')
     elif resposta == 3:

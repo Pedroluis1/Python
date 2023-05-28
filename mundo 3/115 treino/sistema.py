@@ -3,7 +3,7 @@ from lib.arquivo import *
 from time import sleep
 
 
-arq = 'cursoemvideo.txt'
+arq = 'mundo 3/115 treino/cursoemvideo.txt'
 
 if not arquivoExiste(arq):
     criarArquivo(arq)
@@ -13,7 +13,11 @@ while True:
         #opção de listar o conteúdo do arquivo!
         lerArquivo(arq)
     elif resposta == 2:
-        cabeçalho('op2')
+        #opção de cadastrar uma nova pessoa
+        cabeçalho('NOVO CADASTRO')
+        nome = str(input('Nome: '))
+        idade = leiaint('Idade: ')
+        cadastrar(arq, nome, idade)
     elif resposta == 3:
         cabeçalho('Saindo do sistema... até logo!')
         break

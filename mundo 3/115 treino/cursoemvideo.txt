@@ -1,4 +1,4 @@
-gustavo
-ana 
-pedro
-josé
+gustavo;48
+ana;40
+pedro;20
+josé;25

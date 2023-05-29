@@ -11,13 +11,16 @@ while True:
     resposta = menu(['Ver pessoas cadastradas','Cadastrar nova pessoa','Sair do sistema'])
     if resposta == 1:
         #opção de listar o conteúdo do arquivo!
+        sleep(0.5)
         lerArquivo(arq)
+        sleep(0.5)
     elif resposta == 2:
         #opção de cadastrar uma nova pessoa
         cabeçalho('NOVO CADASTRO')
         nome = str(input('Nome: '))
         idade = leiaint('Idade: ')
         cadastrar(arq, nome, idade)
+        sleep(0.5)
     elif resposta == 3:
         cabeçalho('Saindo do sistema... até logo!')
         break

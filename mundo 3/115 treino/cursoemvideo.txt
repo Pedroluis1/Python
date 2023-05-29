@@ -1,4 +1,6 @@
 gustavo;48
-ana;40
 pedro;20
+ana;43
 josé;25
+marcio;52
+jubileu;15

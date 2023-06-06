@@ -20,7 +20,7 @@ def diminuir (preço=0, c=0, format=False):
 
 
 def moeda(preço=0, moeda='R$'):
-    return f'R${preço:<8.2f}'.replace('.', ',')
+    return f'{moeda}{preço:<8.2f}'.replace('.', ',')
 
 def resumo(preço=0, aumento=10, redução=5):
     """

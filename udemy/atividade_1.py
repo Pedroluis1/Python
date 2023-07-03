@@ -1,20 +1,30 @@
-print('Jogo da Forca')
-print('-'*20)
-palavra = 'apple'
+import os
 
-# while True:
-#     print('Palavra Secreta: ',end='')
-#     for letra in palavra:
-#         print('*',end='')
-#     entrada = str(input('\nDigite uma letra: ')).strip()
-#     if len(entrada) > 1: #validação de só uma entrada
-#         print('Digite apenas uma letra.')
-#         continue
+palavra_secreta = 'perfume'
+letras_acertadas = ''
+
+while True:
+    letra_digitada = input('Digite uma letra: ')
+    if len(letra_digitada) > 1:
+        print('\nDigite apenas uma letra.')
+        continue
+    
+    if letra_digitada in palavra_secreta:
+        letras_acertadas += letra_digitada
+    palavra_formada = ''
+    for letra in palavra_secreta:
+        if letra in letras_acertadas:
+            palavra_formada += letra
+        else:
+            palavra_formada += '*'
+    if palavra_formada == palavra_secreta:
+        os.system('clear')
+        print('Você venceu, parabéns!')
+    print({palavra_formada})
 
 
-#     if entrada in palavra:#validação das letra na frase
-#         print(palavra.find(entrada))
-#         print(palavra[palavra.find(entrada)])
+# Melhorias:
+# - Número de tentativas
+# - fazer o usuário escolher a palavra e o tópico (limpar depois disso)
+# - número de tentativvas limitada
 
-entrada = 'p'
-print(palavra.find(entrada))

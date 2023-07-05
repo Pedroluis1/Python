@@ -27,4 +27,4 @@ while True:
 # - Número de tentativas
 # - fazer o usuário escolher a palavra e o tópico (limpar depois disso)
 # - número de tentativvas limitada
-
+# - mostrar os espaços se a paalavra tiver espaços

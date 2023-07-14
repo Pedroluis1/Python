@@ -64,7 +64,34 @@ def validador (*num):
                 a = 10
                 cont_regr = 11
 
-                
-print(validador('07211824122'))
 
-# #terminar!!!!
+def cpf_retorna():
+    cont_regr = 10
+    cpf_usuário = []
+    digito = 0
+    a = 9
+
+    while True:
+        for i in range (0,a):
+            if a == 9:
+                cpf_usuário.append(randint(0,9))
+            digito += (cpf_usuário[i] * cont_regr)
+            cont_regr -= 1
+            if cont_regr == 1:
+                digito *= 10
+                digito %= 11
+                digito = digito if digito <= 9 else 0
+                cpf_usuário.append(digito)
+                digito = 0
+                if a == 10:
+                    cpf_usuário = list(cpf_usuário)
+                    cpf_usuário = str(cpf_usuário)
+                    return cpf_usuário
+                a = 10
+                cont_regr = 11
+
+print(cpf_retorna())
+# cpf()
+print(validador(f'{cpf_retorna()}'))
+
+
